@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Osmar Viana</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="hero-container" id="home">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h1>Procurando um desenvolvedor FullStack?</h1>
+      <svg class="arrows">
+        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+      </svg>
+    </div>
+    <div class="content-container" id="tecnologias">
+      <div class="profile-container">
+        <div class="profile-content">
+          <div class="profile-card">
+            <img class="profile-img" src="./assets/img/Osmar2.jpg" />
+            <span class="name-text">Osmar Viana Torres</span>
+            <span class="profile-text">
+              Persistência e dedicação, pronto para novos desafios!
+            </span>
+            <a
+              href="https://www.linkedin.com/in/osmarvianatorres"
+              target="_blank"
+            >
+              <button class="profile-button">Meu Linkedin &rarr;</button>
+            </a>
+            <div class="divider"></div>
+            <div class="icons-container">
+              <img class="icon-item" src="./assets/img/html.png" />
+              <img class="icon-item" src="./assets/img/css.png" />
+              <img class="icon-item" src="./assets/img/js.png" />
+              <img class="icon-item" src="./assets/img/nodejs.png" />
+              <img class="icon-item" src="./assets/img/react.png" />
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="profile-card"> -->
+        <div class="profile-sinopse">
+          <p class="profile-sinopse">
+            Profissional em transição de carreira, saindo da área de RH e
+            migrando para programação. Estudando
+            <span style="color: #ada9fa"
+              >HTML, CSS, Javascript, React JS e Node JS</span
+            >. Passei mais de 9 anos trabalhando na área de RH onde pude
+            desenvolver inúmeras competências soft skills através da experiência
+            adiquirida lidando com diferentes perfis de pessoas e diferentes
+            grupos de trabalho, além de desenvolver relacionamento profissional
+            com pessoas e empresas. Busco desenvolver minhas competências hard
+            skills através de estudos e projetos práticos desenvolvidos. Tenho
+            praticado HTML, CSS e Javascript criando projetos pessoais baseados
+            nas aulas e vídeos que tenho assistido.
+          </p>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="content-container" id="projetos">
+      <div class="project-container">
+        <div class="project-content">
+          <div class="position-container right">
+            <div class="project-card">
+              <image
+                class="project-image"
+                src="./assets/img/projetoBatman.JPG"
+              />
+              <p class="project-text">
+                Projeto inicial do curso Profissão Programador usando HTML e CSS
+                para criar um site para compra de ingressos para o filme The
+                Batmam. Tivemos o desafio de criar as páginas de cada opção de
+                menu e realizar a resposividade de toda a aplicação.
+              </p>
+            </div>
+          </div>
+
+          <div class="position-container left">
+            <div class="project-card card-reverse">
+              <image
+                class="project-image image-reverse"
+                src="./assets/img/projetoRh.jpg"
+              />
+              <p class="project-text">
+                A partir do primeiro projeto fiz um novo projeto pessoal com
+                ideias trazidas de minha anterior experiência em RH, criando um
+                site para vagas de empregos e cadastro de currículos. O desafio
+                aqui foi criar uma página de cadastro com formulário de
+                prenchimento dos dados pessoais para os candidatos.
+              </p>
+            </div>
+          </div>
+
+          <div class="position-container right">
+            <div class="project-card">
+              <image
+                class="project-image"
+                src="./assets/img/projetoEinha.jpg"
+              />
+              <p class="project-text">
+                Criei uma página para uma loja de biscoitos artesanais para
+                funcionar como ecommerce, adicionei links para intagram e
+                whatsapp e uma página com informações de cada produto.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-container" id="contato">
+      <div class="form-container">
+        <form action="https://formspree.io/f/mnqyqykz" method="POST">
+          <h2>Contato</h2>
+          <label>
+            Email:
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            Nome:
+            <input type="text" name="name" required />
+          </label>
+
+          <label>
+            Telefone:
+            <input type="text" name="phone" required />
+          </label>
+
+          <label>
+            Mensagem:
+            <textarea name="message" required></textarea>
+          </label>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
